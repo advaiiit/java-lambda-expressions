@@ -7,7 +7,6 @@
     <list default="true" id="2019e905-0ea9-4925-8376-6f85fac3786e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Functions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Functions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/advaitkamathe/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/advaitkamathe/Functions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
       <recent name="com.advaitkamathe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Functions">
+  <component name="RunManager" selected="Application.Streams">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.advaitkamathe.Basics" />
       <module name="java-lambda-expressions" />
@@ -96,8 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.advaitkamathe.Streams" />
+      <module name="java-lambda-expressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.advaitkamathe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Streams" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Predicates" />
         <item itemvalue="Application.PassingParameters" />
