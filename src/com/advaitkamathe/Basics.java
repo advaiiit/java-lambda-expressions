@@ -6,6 +6,7 @@ public class Basics {
 
     // Lambda expressions provide us an easier way to work with interfaces which have only one method
     // They are often used in places where we use anonymous classes
+    // They are more convenient and concise way of writing anonymous classes
 
     new Thread(new Runnable() {
       @Override

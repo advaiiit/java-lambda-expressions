@@ -3,7 +3,6 @@ package com.advaitkamathe;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 class Employee {
@@ -58,12 +57,16 @@ public class PassingParameters {
     // When we have only one parameter, we don't need to use a parentheses
     // When a lambda body consists of a single statement that evaluates a value,
     // the return keyword is assumed, and the return value is inferred to be the type of the evaluated value
+    // Once we add {} return statement is required
+
    Collections.sort(employees, (employee1, employee2 ) ->
         employee1.getName().compareTo(employee2.getName()));
 
-    for(Employee employee : employees) {
-      System.out.println(employee.getName());
-    }
+   // for each method takes a lambda expression and evaluates for each item in the iterable collection
+    employees.forEach(employee -> {
+      System.out.print(employee.getName());
+      System.out.println("\t" + employee.getAge());
+    });
   }
 
 
