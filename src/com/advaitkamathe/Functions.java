@@ -38,5 +38,14 @@ public class Functions {
         System.out.println(getName(getLastName, employee));
       }
     }
+
+    // Chaining functions
+    Function<Employee, String> upperCase = employee -> employee.getName().toUpperCase();
+    Function<String, String> firstName = name -> name.substring(0, name.indexOf(' '));
+    Function chainedFunction = upperCase.andThen(firstName);
+
+    for (Employee employee : employees) {
+      System.out.println(chainedFunction.apply(employee));
+    }
   }
 }
