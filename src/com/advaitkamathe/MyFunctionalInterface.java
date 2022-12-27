@@ -3,7 +3,7 @@ package com.advaitkamathe;
 @FunctionalInterface
 public interface MyFunctionalInterface {
 
-  int add(int input1, int input2);
+  void print();
 
   default void method1() {
     System.out.println("Default method-1");
