@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2019e905-0ea9-4925-8376-6f85fac3786e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/advaitkamathe/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/advaitkamathe/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/advaitkamathe/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/advaitkamathe/Streams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Basics$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Basics$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Basics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/advaitkamathe/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/advaitkamathe/Basics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,7 +47,7 @@
       <recent name="com.advaitkamathe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Streams">
+  <component name="RunManager" selected="Application.Basics">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.advaitkamathe.Basics" />
       <module name="java-lambda-expressions" />
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basics" />
         <item itemvalue="Application.Streams" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Predicates" />
         <item itemvalue="Application.PassingParameters" />
-        <item itemvalue="Application.Basics" />
       </list>
     </recent_temporary>
   </component>
