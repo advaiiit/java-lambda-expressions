@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2019e905-0ea9-4925-8376-6f85fac3786e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Basics$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Basics$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Basics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/advaitkamathe/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/advaitkamathe/Basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/MyFunctionalInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/MyFunctionalInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Predicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-lambda-expressions/com/advaitkamathe/Predicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/advaitkamathe/Predicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/advaitkamathe/Predicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,6 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JPYI8yIhusN6HJVXOb4cUZBNaG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,9 +50,22 @@
       <recent name="com.advaitkamathe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Basics">
+  <component name="RunManager" selected="Application.Suppliers">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.advaitkamathe.Basics" />
+      <module name="java-lambda-expressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.advaitkamathe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.advaitkamathe.Consumers" />
       <module name="java-lambda-expressions" />
       <extension name="coverage">
         <pattern>
@@ -74,32 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassingParameters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.advaitkamathe.PassingParameters" />
-      <module name="java-lambda-expressions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.advaitkamathe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Predicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.advaitkamathe.Predicates" />
-      <module name="java-lambda-expressions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.advaitkamathe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.advaitkamathe.Streams" />
       <module name="java-lambda-expressions" />
@@ -113,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Suppliers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.advaitkamathe.Suppliers" />
+      <module name="java-lambda-expressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.advaitkamathe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Suppliers" />
+        <item itemvalue="Application.Consumers" />
         <item itemvalue="Application.Basics" />
         <item itemvalue="Application.Streams" />
         <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.Predicates" />
-        <item itemvalue="Application.PassingParameters" />
       </list>
     </recent_temporary>
   </component>
