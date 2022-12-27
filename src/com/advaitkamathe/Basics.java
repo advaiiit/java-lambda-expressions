@@ -31,7 +31,8 @@ public class Basics {
     // Lambda Expression
     new Thread(() -> System.out.println("Printing from lambda expression")).start();
 
-    MyFunctionalInterface myFunctionalInterface = (a, b) -> a + b;
-    System.out.println(myFunctionalInterface.add(10, 15));
+    MyFunctionalInterface myFunctionalInterface = () ->
+        System.out.println("Using lambda expression to implement abstract method from MyFunctionalInterface");
+    myFunctionalInterface.print();
   }
 }
